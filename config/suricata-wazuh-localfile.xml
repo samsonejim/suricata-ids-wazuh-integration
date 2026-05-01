@@ -1,0 +1,7 @@
+<!-- Add to /var/ossec/etc/ossec.conf on ubuntu-endpoint -->
+<!-- Tells Wazuh Agent to read Suricata eve.json alerts -->
+
+<localfile>
+  <log_format>json</log_format>
+  <location>/var/log/suricata/eve.json</location>
+</localfile>
