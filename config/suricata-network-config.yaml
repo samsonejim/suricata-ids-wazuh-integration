@@ -1,0 +1,11 @@
+# Key Suricata settings changed in /etc/suricata/suricata.yaml
+
+# Set to your specific endpoint IP
+HOME_NET: "[10.10.0.3/32]"
+
+# Monitor all external traffic
+EXTERNAL_NET: "any"
+
+# Set to your specific network interface to monitor
+af-packet:
+  - interface: ens4
